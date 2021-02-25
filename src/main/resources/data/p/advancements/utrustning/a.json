@@ -1,0 +1,35 @@
+{
+  "parent": "p:utrustning/root",
+  "display": {
+    "icon": {
+      "item": "p:b_block"
+    },
+    "title": {
+      "translate": "坚不可摧"
+    },
+    "description": {
+      "translate": "获得黑石块"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "b_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "p:b_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "b_block"
+    ]
+  ]
+}

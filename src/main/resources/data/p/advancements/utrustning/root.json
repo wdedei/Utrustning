@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "p:bstone"
+    },
+    "title": {
+      "translate": "Utrustning"
+    },
+    "description": {
+      "translate": "感谢游玩此mod!"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "p:textures/block/b_block.png"
+  },
+  "criteria": {
+    "bstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "p:bstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bstone"
+    ]
+  ]
+}

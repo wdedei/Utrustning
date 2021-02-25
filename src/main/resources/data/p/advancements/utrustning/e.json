@@ -1,0 +1,35 @@
+{
+  "parent": "p:utrustning/root",
+  "display": {
+    "icon": {
+      "item": "p:rstone"
+    },
+    "title": {
+      "translate": "§d闪闪发光"
+    },
+    "description": {
+      "translate": "获得红宝石"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "p:rstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rstone"
+    ]
+  ]
+}

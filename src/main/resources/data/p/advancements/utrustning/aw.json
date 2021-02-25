@@ -1,0 +1,35 @@
+{
+  "parent": "p:utrustning/a",
+  "display": {
+    "icon": {
+      "item": "p:bn"
+    },
+    "title": {
+      "translate": "§0小不点"
+    },
+    "description": {
+      "translate": "获得黑石粒"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "p:bn"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bn"
+    ]
+  ]
+}

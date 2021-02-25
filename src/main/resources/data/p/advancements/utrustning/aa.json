@@ -1,0 +1,35 @@
+{
+  "parent": "p:utrustning/a",
+  "display": {
+    "icon": {
+      "item": "p:bc_block"
+    },
+    "title": {
+      "translate": "坚如磐石"
+    },
+    "description": {
+      "translate": "获得压缩黑石块"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bc_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "p:bc_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bc_block"
+    ]
+  ]
+}

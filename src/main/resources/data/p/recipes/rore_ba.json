@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "p:r_ore"
+  },
+  "result": "p:rstone",
+  "experience": 3.7,
+  "cookingtime": 50
+}

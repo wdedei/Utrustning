@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "p:rstone"
+    }
+  },
+  "result": {
+    "item": "p:r_helmet"
+  }
+}

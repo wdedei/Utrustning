@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X#",
+    "X #",
+    " X#"
+  ],
+  "key": {
+    "#": {
+      "item": "p:bstone"
+    },
+    "X": {
+      "item": "p:bdc_block"
+    }
+  },
+  "result": {
+    "item": "p:bbdcbow"
+  }
+}

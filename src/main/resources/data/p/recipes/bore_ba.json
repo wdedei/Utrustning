@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "p:b_ore"
+  },
+  "result": "p:bpile",
+  "experience": 1.7,
+  "cookingtime": 100
+}

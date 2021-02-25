@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "p:bpile"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 4
+  }
+}

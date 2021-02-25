@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "p:b_block"
+      }
+    ],
+    "result": {
+      "item": "p:bstone",
+      "count": 9
+    }
+  }
+  

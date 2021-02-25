@@ -1,0 +1,8 @@
+{
+  "parent": "p:block/cube_bottom_top",
+  "textures": {
+    "top": "p:block/matu_tnt_top",
+    "bottom": "p:block/matu_tnt_bottom",
+    "side": "p:block/matu_tnt_side"
+  }
+}

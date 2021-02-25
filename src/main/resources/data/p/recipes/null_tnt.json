@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "p:matu_tnt"
+    },
+    {
+      "item": "p:bstone"
+    }
+  ],
+  "result": {
+    "item": "p:null_tnt"
+  }
+}

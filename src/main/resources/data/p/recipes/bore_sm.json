@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "p:b_ore"
+  },
+  "result": "p:bstone",
+  "experience": 1.0,
+  "cookingtime": 200
+}

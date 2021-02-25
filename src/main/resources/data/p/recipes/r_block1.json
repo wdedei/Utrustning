@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "p:r_block"
+      }
+    ],
+    "result": {
+      "item": "p:rstone",
+      "count": 9
+    }
+  }
+  
