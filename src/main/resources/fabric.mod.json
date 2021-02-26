@@ -6,32 +6,43 @@
   "name": "Utrustning",
   "description": "Utrustning comes from the Swedish word for protection or equipment.",
   "authors": [
-    "凌凌1301"
+    "\\u51cc\\u51cc1301"
+  ],
+  "contributors": [
+    "teddyxlandlee"
   ],
   "contact": {
     "homepage": "https://space.bilibili.com/472148300",
-    "sources": "https://space.bilibili.com/472148300"
+    "sources": "https://github.com/wdedei/Utrustning"
   },
 
-  "license": "1",
-  "icon": "assets/modid/icon.png",
+  "license": "All right reserved",
+  "icon": "assets/p/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.wdedei.utrustning.Utrustning"
+    ],
+    "client": [
+      "io.wdedei.utrustning.UtrustningClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "utrustning.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.9.0",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": ">=1.16.2 <1.17"
   },
-  "suggests": {
-    "another-mod": "*"
+  "suggests": {},
+  "custom": {
+    "Pigeonia Linkage Standard": {
+      "version": "v1.0.1",
+      "url": "https://featurehouse.github.io/pigeonia-linkage-standard/v1.0.1/STANDARD.txt",
+      "strict": false
+    }
   }
 }
